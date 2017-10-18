@@ -1,0 +1,42 @@
+body {
+  line-height: 1.5em;
+}
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 65%;
+
+}
+
+.jumbotron {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+
+}
+
+.jumbotron h4 {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  margin-bottom: 0;
+}
+
+.api-link {
+  font-size: 1em;
+}
+
+.survey-title {
+  font-size: 1.25em;
+
+}
+
+.question-number {
+  margin-top: 1.5em;
+}
+
+.best-friend-img {
+  max-width: 100%;
+}
