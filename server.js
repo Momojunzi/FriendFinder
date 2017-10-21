@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-app.use(express.static("app/public/css"));
-app.use(express.static("app/public/javascript"));
-app.use(express.static("app/public/images"));
+ app.use(express.static("app/public/css"));
+ app.use(express.static("app/public/javascript"));
+ app.use(express.static("app/public/images"));
 
 htmlRoutes.survey(app, path);
 apiRoutes.getFriends(app);
@@ -22,4 +22,6 @@ apiRoutes.postFriends(app);
 apiRoutes.getBestFriend(app);
 htmlRoutes.home(app, path);
 
-app.listen(port);
+app.listen(port, function(){
+  console.log("listening on port "+port);
+});

@@ -1,5 +1,5 @@
 var questions = [
-  "Say, when the next meal? I know I just ate a minute ago but I'm starving!",
+  "When is the next meal? I know I just ate a minute ago but I'm starving!",
   "Hmm, this bathtub looks like a fine place to take a nap!",
   "I'm not Feeling well! Human food makes me feel better!",
   "It's nighttime, please let me in. I won't let you sleep until you do.",
@@ -8,7 +8,7 @@ var questions = [
   "Don't touch me! Don't even come near me!",
   "Is that chicken I smell? Can I have some?!",
   "I'm the boss! The rest of you better do what I say or else!",
-  "Children, I'm the mother! It's time for your bath.",
+  "I'm tough I come from the streets! Can I have a hug?",
 ];
 
 (function createQuestions(){
